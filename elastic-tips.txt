@@ -1,0 +1,4 @@
+How to check elastic status and plugin list.
+curl -XGET 'http://localhost:9200/_nodes?plugin=true&pretty'
+
+
